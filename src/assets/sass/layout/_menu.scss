@@ -44,7 +44,7 @@
       ('opacity #{_duration(menu)} ease', 'transform #{_duration(menu)} ease')
     );
     -webkit-overflow-scrolling: touch;
-    background: _palette(accent);
+    background: #3a6e3a;
     border-radius: _size(border-radius);
     display: block;
     max-width: 100%;

@@ -30,13 +30,17 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">
+              ``One for <u>All</u> for One``
+            </h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              We have strong socio-economic development principles inherent in
+              all our business activities and we are actively involved in `doing
+              our part`. We welcome diversity, assimilate change and stand fast
+              to face all challenges that we may face as a nation. We stand for
+              Unity, Leadership, Accountability, Trust & Austerity. Our motto
+              reflects our shared values, goals & aspirations:- ``One for All
+              for One``
             </p>
             <a href="/#" className="special">
               Learn more

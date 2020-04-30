@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Matona Simanga - Special Services', // <title>
+  manifestName: 'Matona Simanga ',
+  manifestShortName: 'MSS', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/matonasimanga/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Matona Simanga',
+  subHeading: 'Unity, Leadership, Accountability, Trust & Austerity ',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/gatsbify',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/matonasimanga',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/matonasimanga',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:hello@matonasimanga.co.za',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '0788-788717',
+  address: 'Matona Simanga, PO Box 472, Paardekraal, Mogale City, 1752',
 };

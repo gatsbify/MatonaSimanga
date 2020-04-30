@@ -8,7 +8,7 @@
 
 /// Sets the colors of the wrapper's top/bottom edges.
 /// @param {string} $color Color.
-@mixin wrapper-edges-color($color: black) {
+@mixin wrapper-edges-color($color: rgb(51, 49, 49)) {
   &:before,
   &:after {
     background-image: svg-url(
@@ -17,11 +17,11 @@
   }
 
   &:before {
-    box-shadow: inset 0 -1px 0 0 $color, 0 1px 0 0 $color;
+    box-shadow: inset 0 -1px 0 0 #3a6e3a00, 0 1px 0 0 #3a6e3a00;
   }
 
   &:after {
-    box-shadow: inset 0 -1px 0 0 $color, 0 1px 0 0 $color;
+    box-shadow: inset 0 -1px 0 0 #3a6e3a00, 0 1px 0 0 #3a6e3a00;
   }
 }
 
@@ -120,13 +120,14 @@
 }
 
 .wrapper {
-  background-color: _palette(bg);
+  background-color: #525050c0;
   margin: _size(wrapper-edges, large) 0;
   position: relative;
   @include wrapper-edges-color(_palette(bg));
 
   &:before,
   &:after {
+    background-color: #3b7738b8;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     content: '';
@@ -168,14 +169,14 @@
     $color: desaturate(lighten(_palette(bg), $j), $j * 0.5);
 
     &.style#{$i} {
-      background-color: $color;
+      background-color: #235823e8;
       @include wrapper-edges-color($color);
     }
   }
 
   &.spotlight {
     @include wrapper-edges-color(_palette(accent));
-    background-color: _palette(accent);
+    background-color: #828482bb;
 
     .inner {
       @include vendor('display', 'flex');
@@ -217,7 +218,7 @@
       $color: saturate(darken(_palette(accent), $j), $j * 0.5);
 
       &.style#{$i} {
-        background-color: $color;
+        background-color: #3b7738fd;
         @include wrapper-edges-color($color);
       }
     }
