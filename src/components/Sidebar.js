@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
+import piclogo from '../assets/images/logo-50.png';
+
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Matona-Simange Specialised Services</Link>
+          <Link to="/">
+            <a href="/#" className="image">
+              <img src={piclogo} alt="" />
+            </a>
+          </Link>
         </h1>
 
         <nav>

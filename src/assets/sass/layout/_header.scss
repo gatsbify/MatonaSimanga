@@ -11,7 +11,7 @@
     'transition',
     'background-color #{_duration(transition)} ease-in-out'
   );
-  background-color: hsla(56, 92%, 64%, 0.37);
+  background-color: hsl(0, 0%, 44%);
   height: 3.5em;
   left: 0;
   line-height: 3.5em;
@@ -34,7 +34,7 @@
     margin-bottom: 0;
     opacity: 1;
     visibility: visible;
-    background-color: hsla(56, 92%, 64%, 0.295);
+    //background-color: hsl(60, 2%, 29%);
 
     a {
       border: 0;

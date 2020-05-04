@@ -1,14 +1,13 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import pic1 from '../assets/images/pic01.webp';
 import pic2 from '../assets/images/pic02.webp';
-import pic3 from '../assets/images/pic03.webp';
-import pic4 from '../assets/images/pic04.webp';
 import pic5 from '../assets/images/pic05.webp';
-import pic6 from '../assets/images/pic06.webp';
-import pic7 from '../assets/images/pic07.webp';
+import pic13 from '../assets/images/pic013.webp';
+import pic14 from '../assets/images/pic014.webp';
+import pic16 from '../assets/images/pic016.webp';
+import pic17 from '../assets/images/pic017.webp';
+import pic18 from '../assets/images/logo-banner.webp';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,9 +15,13 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon1-bg"></span>
         </div>
-        <h2>{config.heading}</h2>
+        <h2>
+          <a href="/#" className="image">
+            <img src={pic18} alt="" />
+          </a>
+        </h2>
         <p>{config.subHeading}</p>
       </div>
     </section>
@@ -39,10 +42,10 @@ const IndexPage = () => (
               our part`. We welcome diversity, assimilate change and stand fast
               to face all challenges that we may face as a nation. We stand for
               Unity, Leadership, Accountability, Trust & Austerity. Our motto
-              reflects our shared values, goals & aspirations:- ``One for All
+              reflects our shared values, goals & aspira0tions:- ``One for All
               for One``
             </p>
-            <a href="/#" className="special">
+            <a href="/About" className="special">
               Learn more
             </a>
           </div>
@@ -52,38 +55,11 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={pic17} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="three" className="wrapper spotlight style3">
-        <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
+            <h2 className="major">Social Responsibility</h2>
+            <p>Content from Shawn</p>
             <a href="/#" className="special">
               Learn more
             </a>
@@ -93,19 +69,34 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Our Services</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            MatonaSimanga is capable of providing the range of Service which
+            includes the following :
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                <img src={pic14} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">
+                Agricultural Science &amp; Environmental Management
+              </h3>
+              <p>
+                We provide services and specialist studies focused on
+                agricultural and environmental management solutions.
+              </p>
+              <a href="/#" className="special">
+                Learn more
+              </a>
+            </article>
+            <article>
+              <a href="/#" className="image">
+                <img src={pic13} alt="" />
+              </a>
+              <h3 className="major">
+                Minning Resource Management &amp; Technical Services
+              </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -116,9 +107,9 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={pic16} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Digital &amp; Technology Services</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
@@ -129,22 +120,12 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img src={pic2} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">
+                Light Construction, Building Maintenance &amp; Steel
+                Fabrications
+              </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.

@@ -120,17 +120,17 @@
 }
 
 .wrapper {
-  background-color: #525050c0;
+  background-color: #1f364c;
   margin: _size(wrapper-edges, large) 0;
   position: relative;
   @include wrapper-edges-color(_palette(bg));
 
   &:before,
   &:after {
-    background-color: #3b7738b8;
+    background-color: #cca32f;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    content: '';
+
     display: block;
     height: _size(wrapper-edges, large);
     position: absolute;
@@ -169,14 +169,14 @@
     $color: desaturate(lighten(_palette(bg), $j), $j * 0.5);
 
     &.style#{$i} {
-      background-color: #235823e8;
+      background-color: #1f364c;
       @include wrapper-edges-color($color);
     }
   }
 
   &.spotlight {
     @include wrapper-edges-color(_palette(accent));
-    background-color: #828482bb;
+    background-color: #1f364c;
 
     .inner {
       @include vendor('display', 'flex');
