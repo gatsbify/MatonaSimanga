@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import pic1 from '../assets/images/pic01.webp';
 import pic2 from '../assets/images/pic02.webp';
-import pic5 from '../assets/images/pic05.webp';
+
 import pic13 from '../assets/images/pic013.webp';
 import pic14 from '../assets/images/pic014.webp';
 import pic16 from '../assets/images/pic016.webp';
@@ -58,9 +58,12 @@ const IndexPage = () => (
             <img src={pic17} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Social Responsibility</h2>
-            <p>Content from Shawn</p>
-            <a href="/#" className="special">
+            <h2 className="major">Food Distribution Services</h2>
+            <p>
+              Soul City Fruit &amp; Veg (Spaza Shop Outlet) Soul City Informal
+              Settlement, Chamdor, Mogale City
+            </p>
+            <a href="/Social" className="special">
               Learn more
             </a>
           </div>
@@ -76,7 +79,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="/AgriEnv" className="image">
                 <img src={pic14} alt="" />
               </a>
               <h3 className="major">
@@ -86,27 +89,28 @@ const IndexPage = () => (
                 We provide services and specialist studies focused on
                 agricultural and environmental management solutions.
               </p>
-              <a href="/#" className="special">
+              <a href="/AgriEnv" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/Mining" className="image">
                 <img src={pic13} alt="" />
               </a>
               <h3 className="major">
                 Minning Resource Management &amp; Technical Services
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                The Mines Health and Safety Act, Act 29 of 1996 as amended and
+                The Minerals and Petroleum Resources Development Act, Act 49 of
+                2008, as amended.
               </p>
-              <a href="/#" className="special">
+              <a href="/Mining" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/Digital" className="image">
                 <img src={pic16} alt="" />
               </a>
               <h3 className="major">Digital &amp; Technology Services</h3>
@@ -114,12 +118,12 @@ const IndexPage = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
-              <a href="/#" className="special">
+              <a href="/Digital" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/Construction" className="image">
                 <img src={pic2} alt="" />
               </a>
               <h3 className="major">
@@ -127,21 +131,15 @@ const IndexPage = () => (
                 Fabrications
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                We provide services which include building alterations or
+                additions, brickwork, plastering, ceilings &amp; roofing.
               </p>
-              <a href="/#" className="special">
+              <a href="/Construction" className="special">
                 Learn more
               </a>
             </article>
           </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
+          <ul className="actions"></ul>
         </div>
       </section>
     </section>

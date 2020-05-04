@@ -1,81 +1,78 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.webp';
-import pic5 from '../assets/images/pic05.webp';
 
 const ServicesPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Generic</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <h2>Our Services</h2>
         </div>
       </header>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
+          <h3 className="major">
+            Agricultural Science &amp; Environmental Management
+          </h3>
           <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
+            We provide services and specialist studies focused on agricultural
+            and environmental management solutions. We cater to clients
+            throughout South Africa in order to assist them preserve our natural
+            resources to the benefit of the environment for present and future
+            generations.
+            <a href="/AgriEnv" className="special">
+              Learn more
+            </a>
           </p>
 
+          <h3 className="major">
+            Mineral Resource Management & Mine Technical Services
+          </h3>
           <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
+            The Mines Health and Safety Act, Act 29 of 1996 as amended and The
+            Minerals and Petroleum Resources Development Act, Act 49 of 2008, as
+            amended.
+            <a href="/Mining" className="special">
+              Learn more
+            </a>
           </p>
 
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
+          <section className="major">
+            <h3 className="major">Digital &amp; Technology Services</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
+              nulla dignissim dapibus ultrices.
+              <a href="/Digital" className="special">
                 Learn more
               </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
+            </p>
+
+            <h3 className="major">
+              Light Construction, Building Maintenance & Steel Fabrications
+            </h3>
+            <p>
+              We provide services which include building alterations or
+              additions, brickwork, plastering, ceilings & roofing. No job too
+              small but we are limited to light construction work only. We also
+              have our own professional welder on call for any steel fabrication
+              work or steel manufacturing services.
+              <a href="/Construction" className="special">
                 Learn more
               </a>
-            </article>
+            </p>
+
+            <h3 className="major">
+              Food Distribution Services & Informal Trade Operations
+            </h3>
+            <p>
+              We operate 7 days a week, 365 days a year providing fresh produce
+              to the Soul City local community, spaza shops & vendors.
+              <a href="/Social" className="special">
+                Learn more
+              </a>
+            </p>
           </section>
         </div>
       </div>
