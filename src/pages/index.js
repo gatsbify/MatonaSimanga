@@ -7,7 +7,7 @@ import pic13 from '../assets/images/pic013.webp';
 import pic14 from '../assets/images/pic014.webp';
 import pic16 from '../assets/images/pic016.webp';
 import pic17 from '../assets/images/pic017.webp';
-import pic18 from '../assets/images/logo-banner.webp';
+import pic18 from '../assets/images/logo-banner_80.webp';
 
 import config from '../../config';
 const IndexPage = () => (

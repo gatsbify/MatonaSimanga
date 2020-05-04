@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'Matona Simanga ',
   manifestShortName: 'MSS', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#1f374b',
+  manifestThemeColor: '#1f374b',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/matonasimanga/`, // This path is subpath of your hosting https://domain/portfolio
