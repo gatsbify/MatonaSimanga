@@ -10,12 +10,7 @@ export default function Footer() {
           We would love to hear from you. For any information kindly contact us
           below.
         </p>
-        <form
-          name="Contact"
-          method="POST"
-          data-netlify="true"
-          action="/thank-you"
-        >
+        <form name="Contact" method="POST">
           <input type="hidden" name="form-name" value="Contact Form" />
           <div className="fields">
             <div className="field">
