@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Get in touch</h2>
         <p>
-          We would love to hear from you. For any infor,ation kindly contact us
+          We would love to hear from you. For any information kindly contact us
           below.
         </p>
-        <form method="post" action="/#">
+        <form method="post" data-netlify="true" action="/#">
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>
