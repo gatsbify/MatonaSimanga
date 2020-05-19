@@ -73,10 +73,10 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Our Services</h2>
+          <h2 className="major">Our Services:</h2>
           <p>
             MatonaSimanga is capable of providing the range of Service which
-            includes the following :
+            includes the following :-
           </p>
           <section className="features">
             <article>

@@ -1,5 +1,6 @@
 import React from 'react';
 import config from '../../config';
+
 export default function Footer() {
   return (
     <section id="footer">
@@ -10,7 +11,7 @@ export default function Footer() {
           below.
         </p>
         <form
-          name="Contact Form"
+          name="Contact"
           method="POST"
           data-netlify="true"
           action="/thank-you"
