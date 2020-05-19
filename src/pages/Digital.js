@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.webp';
+import pic121 from '../assets/images/pic121.png';
 
 const AboutPage = () => (
   <Layout fullMenu>
@@ -85,9 +85,11 @@ const AboutPage = () => (
           </p>
           <article>
             <a href="/Construction" className="image">
-              <img src={pic4} alt="" />
+              <img src={pic121} alt="" />
             </a>
           </article>
+          <br />
+          <br />
           <section className="features">
             <a href="/Construction" className="special">
               Light Construction

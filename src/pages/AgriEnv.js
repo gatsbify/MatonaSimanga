@@ -14,11 +14,13 @@ const AgriEnvPage = () => (
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Agriculture & Enviroment</h3>
+          <h3 className="major">Agriculture & Environment</h3>
           <p>
-            We cater to clients throughout South Africa in order to assist them
-            preserve our natural resources to the benefit of the environment for
-            present and future generations.
+            We provide services and specialist studies focused on agricultural
+            and environmental management solutions. We cater to clients
+            throughout South Africa in order to assist them preserve our natural
+            resources to the benefit of the environment for present and future
+            generations.
           </p>
           <p>
             MatonaSimanga is capable of providing the range of agricultural and
@@ -31,15 +33,9 @@ const AgriEnvPage = () => (
             practices.
           </p>{' '}
           <p>
-            Also within this region is the township known as Kagiso, which means
-            peace in Tswana. Kagiso was established in 1920 by ex-miners and
-            squatters from nearby Luipaardsvlei and now also includes Soul City
-            Informal Settlement, where, we have been active since 2017 providing
-            fresh produce to the local community as part of our social
-            development initiatives.
-          </p>
-          <p>
-            {' '}
+            Our philosophy is to incorporate the needs of the biophysical and
+            social environment with the aspects of project planning and
+            practical, applicable legislations and sound management practices.
             Environmental monitoring ensures the management of natural resources
             contributing to sustainable development through processes and
             activities which characterise and monitor the quality of the

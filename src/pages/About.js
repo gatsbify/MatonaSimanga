@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import pic4 from '../assets/images/pic04.webp';
-import pic5 from '../assets/images/pic05.webp';
+import pic2 from '../assets/images/pic02.webp';
 
 const AboutPage = () => (
   <Layout fullMenu>
@@ -18,33 +18,38 @@ const AboutPage = () => (
         <div className="inner">
           <h3 className="major">Who are we?</h3>
           <p>
-            At MatonaSimanga, we are a well-balanced skilled team of dedicated
-            professionals will add value to your organisation with emphasis on
-            superior service, professional work ethics and a technological
-            approach to viable organisational development. Our contract
-            management, project &amp; portfolio management services will fit
-            into your budgetary constraints, servicing key segments within a
-            specified scope without impacting negatively on service delivery
-            levels or internal processes.
+            At MatonaSimanga, our small team of dedicated professionals will add
+            value to your organisation with emphasis on superior service,
+            professional work ethics and a technological approach to viable
+            organisational development. Our contract management, project &
+            portfolio management services will fit into your budgetary
+            constraints, servicing key segments within a specified scope without
+            impacting negatively on service delivery levels or internal
+            processes.
           </p>
           <p>
-            MatonaSimanga is situated in Krugersdorp, on the West Rand, Gauteng
-            Province, South Africa which forms part of the Mogale City Local
-            Municipality and is a mining city founded in 1887 by Marthinus
-            Pretorius. Following the discovery of gold on the Witwatersrand, a
-            need arose for a major town in the west of the gold reef.
-            Krugersdorp was proclaimed a municipality in 1903.{' '}
-          </p>{' '}
+            We have strong socio-economic development principles inherent in all
+            our business activities and we are actively involved in `doing our
+            part. We also aim to build long lasting relations with all our
+            customers, stakeholders and networking partners. We welcome
+            diversity, assimilate change and stand fast to face all challenges
+            that we may face as a nation. We stand for Unity, Leadership,
+            Accountability, Trust &amp; Austerity. Our motto reflects our shared
+            values, goals &amp; aspirations:- ``One for All for One``
+          </p>
           <p>
+            MatonaSimanga is situated in Krugersdorp which is on the West Rand,
+            Gauteng Province, South Africa and forms part of the Mogale City
+            Local Municipality. Established as a mining city, it was founded in
+            1887 by Marthinus Pretorius following the discovery of gold on the
+            Witwatersrand. Krugersdorp was proclaimed a municipality in 1903.
             Also within this region is the township known as Kagiso, which means
-            peace in Tswana. Kagiso was established in 1920 by ex-miners and
+            `peace` in Tswana. Kagiso was established in 1920 by ex-miners and
             squatters from nearby Luipaardsvlei and now also includes Soul City
             Informal Settlement, where, we have been active since 2017 providing
-            fresh produce to the local community as part of our social
-            development initiatives.
+            fresh produce to the local community.
           </p>
           <p>
-            {' '}
             Since our inception in 2013 under our legal entity Venus Cor (Pty)
             Ltd, we have been providing a number of specialized services mainly
             to the mining sector. These specialist disciplines range from
@@ -86,25 +91,28 @@ const AboutPage = () => (
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Services</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                We provide services and specialist studies focused on
+                agricultural and environmental management solutions. We cater to
+                clients throughout South Africa in order to assist them preserve
+                our natural resources to the benefit of the environment for
+                present and future generations.
               </p>
-              <a href="/#" className="special">
+              <a href="/Services" className="special">
                 Learn more
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={pic2} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Social Responsibility</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                We operate 7 days a week, 365 days a year providing fresh
+                produce to the Soul City local community, spaza shops & vendors.
               </p>
-              <a href="/#" className="special">
+              <a href="/Social" className="special">
                 Learn more
               </a>
             </article>

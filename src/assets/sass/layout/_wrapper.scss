@@ -218,7 +218,7 @@
       $color: saturate(darken(_palette(accent), $j), $j * 0.5);
 
       &.style#{$i} {
-        background-color: hsl(108, 27%, 34%);
+        background-color: hsl(125, 24%, 30%);
         @include wrapper-edges-color($color);
       }
     }

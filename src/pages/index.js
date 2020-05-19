@@ -42,7 +42,7 @@ const IndexPage = () => (
               our part`. We welcome diversity, assimilate change and stand fast
               to face all challenges that we may face as a nation. We stand for
               Unity, Leadership, Accountability, Trust & Austerity. Our motto
-              reflects our shared values, goals & aspira0tions:- ``One for All
+              reflects our shared values, goals & aspirations:- ``One for All
               for One``
             </p>
             <a href="/About" className="special">
@@ -61,7 +61,8 @@ const IndexPage = () => (
             <h2 className="major">Food Distribution Services</h2>
             <p>
               Soul City Fruit &amp; Veg (Spaza Shop Outlet) Soul City Informal
-              Settlement, Chamdor, Mogale City
+              Settlement, Chamdor, Mogale City. We Also assist aspiring spaza
+              shop owners with gudance in setting up there own small enterprise.
             </p>
             <a href="/Social" className="special">
               Learn more
@@ -115,8 +116,10 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Digital &amp; Technology Services</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Our contract management, project & portfolio management services
+                will fit into your budgetary constraints, servicing key segments
+                within a specified scope without impacting negatively on service
+                delivery levels or internal processes.
               </p>
               <a href="/Digital" className="special">
                 Learn more

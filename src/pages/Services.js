@@ -28,7 +28,7 @@ const ServicesPage = () => (
           </p>
 
           <h3 className="major">
-            Mineral Resource Management & Mine Technical Services
+            Mineral Resource Management &amp; Mine Technical Services
           </h3>
           <p>
             The Mines Health and Safety Act, Act 29 of 1996 as amended and The
@@ -42,8 +42,10 @@ const ServicesPage = () => (
           <section className="major">
             <h3 className="major">Digital &amp; Technology Services</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-              nulla dignissim dapibus ultrices.
+              Our contract management, project & portfolio management services
+              will fit into your budgetary constraints, servicing key segments
+              within a specified scope without impacting negatively on service
+              delivery levels or internal processes.
               <a href="/Digital" className="special">
                 Learn more
               </a>
