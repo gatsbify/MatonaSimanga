@@ -35,4 +35,3 @@ export default function SideBar({ fullMenu }) {
     </>
   );
 }
-<input type="hidden" name="form-name" value="Contact Form" />;
