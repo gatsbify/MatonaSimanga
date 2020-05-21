@@ -49,7 +49,7 @@ export default function Footer() {
         <ul className="copyright">
           <li>&copy; 2020 Matona Simanga. All rights reserved.</li>
           <li>
-            Design: <a href="https://gatsbify.site">HTML5 UP &amp; Gatsbify</a>
+            Design: <a href="https://gatsbify.io">HTML5 UP &amp; Gatsbify</a>
           </li>
         </ul>
       </div>

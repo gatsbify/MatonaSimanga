@@ -41,9 +41,9 @@ const IndexPage = () => (
               all our business activities and we are actively involved in `doing
               our part`. We welcome diversity, assimilate change and stand fast
               to face all challenges that we may face as a nation. We stand for
-              Unity, Leadership, Accountability, Trust & Austerity. Our motto
-              reflects our shared values, goals & aspirations:- ``One for All
-              for One``
+              Unity, Leadership, Accountability, Trust &amp; Austerity. Our
+              motto reflects our shared values, goals &amp; aspirations:- ``One
+              for All for One``
             </p>
             <a href="/About" className="special">
               Learn more
@@ -99,7 +99,7 @@ const IndexPage = () => (
                 <img src={pic13} alt="" />
               </a>
               <h3 className="major">
-                Minning Resource Management &amp; Technical Services
+                Mining Resource Management &amp; Technical Services
               </h3>
               <p>
                 The Mines Health and Safety Act, Act 29 of 1996 as amended and
@@ -116,10 +116,10 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Digital &amp; Technology Services</h3>
               <p>
-                Our contract management, project & portfolio management services
-                will fit into your budgetary constraints, servicing key segments
-                within a specified scope without impacting negatively on service
-                delivery levels or internal processes.
+                Our contract management, project &amp; portfolio management
+                services will fit into your budgetary constraints, servicing key
+                segments within a specified scope without impacting negatively
+                on service delivery levels or internal processes.
               </p>
               <a href="/Digital" className="special">
                 Learn more
